@@ -4,4 +4,6 @@ matplotlib
 seaborn
 dill
 Flask
+skikit-learn
+gunicorn
 -e .
