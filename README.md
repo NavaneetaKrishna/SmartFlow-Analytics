@@ -1,6 +1,7 @@
 SmartFlow-Analytics
 
 
+
 –	Engineered an automated predictive modeling pipeline utilizing XGBoost and Random Forest, achieving an 87% accuracy (R2 Score) in forecasting target anomalies, outperforming traditional heuristic-based tracking methods.
 
 –	Slashed manual data processing time by over 80% (saving ~15+ hours weekly) by architecting a dynamic Scikit-Learn ColumnTransformer workflow that autonomously handles missing value imputation and feature scaling in real-time.
