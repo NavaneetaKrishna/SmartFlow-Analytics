@@ -6,9 +6,3 @@ dill
 Flask
 scikit-learn
 gunicorn
-#-e .
-'''The line -e . tells pip to install your local project directory in editable development mode using a setup.py file.
-While this works beautifully on your local development computer, it breaks completely inside AWS Elastic Beanstalk. 
-When the Beanstalk build system runs pip install -r requirements.txt inside its isolated staging folder, 
-it changes context. The -e . reference fails to resolve the local directory context correctly, 
-causing pip to throw an error and crash out out of the file installation loop entirely.'''
